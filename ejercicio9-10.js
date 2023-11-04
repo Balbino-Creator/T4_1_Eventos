@@ -8,8 +8,8 @@ window.onload = function(){
         imagen.addEventListener('mousedown', e => {
             arrastrando = true;
             imagenSeleccionada = imagen;
-            ancho = e.ancho;
-            alto = e.alto;
+            ancho = e.offsetX;
+            alto = e.offsetY;
         });
 
         document.addEventListener('mousemove', e => {

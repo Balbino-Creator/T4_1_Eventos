@@ -1,5 +1,6 @@
-const parrafo = document.querySelector('P');
+
         window.addEventListener("load", e => {
+            const parrafo = document.querySelector('P');
             let segundos=0;
 
             setInterval(() => {
